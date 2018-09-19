@@ -1,0 +1,39 @@
+> git status --ignored
+On branch vsmac-gitignore-7.6.5b20
+Ignored files:
+  (use "git add -f <file>..." to include in what will be committed)
+
+	IgnoreTests/.DS_Store
+	IgnoreTests/.vs/
+	IgnoreTests/AndroidApp/bin/
+	IgnoreTests/AndroidApp/obj/
+	IgnoreTests/AzureFunctionsWebHook/bin/
+	IgnoreTests/AzureFunctionsWebHook/obj/
+	IgnoreTests/CoreConsole/.DS_Store
+	IgnoreTests/CoreConsole/bin/
+	IgnoreTests/CoreConsole/obj/
+	IgnoreTests/FormsMasterDetail.Android/bin/
+	IgnoreTests/FormsMasterDetail.Android/obj/
+	IgnoreTests/FormsMasterDetail.iOS/bin/
+	IgnoreTests/FormsMasterDetail.iOS/obj/
+	IgnoreTests/FormsMasterDetail/bin/
+	IgnoreTests/FormsMasterDetail/obj/
+	IgnoreTests/Library/bin/
+	IgnoreTests/Library/obj/
+	IgnoreTests/LibraryNetStd/bin/
+	IgnoreTests/LibraryNetStd/obj/
+	IgnoreTests/MSTest/bin/
+	IgnoreTests/MSTest/obj/
+	IgnoreTests/WebApi/bin/
+	IgnoreTests/WebApi/obj/
+	IgnoreTests/WebApp/bin/
+	IgnoreTests/WebApp/obj/
+	IgnoreTests/WebEmpty/bin/
+	IgnoreTests/WebEmpty/obj/
+	IgnoreTests/WebMvc/bin/
+	IgnoreTests/WebMvc/obj/
+	IgnoreTests/iOSTabbed/bin/
+	IgnoreTests/iOSTabbed/obj/
+	IgnoreTests/packages/
+	IgnoreTests/xUnitTest/bin/
+	IgnoreTests/xUnitTest/obj/
