@@ -1,5 +1,5 @@
 > git status --ignored
-On branch gitignore-vsmac-7.6.5.b20
+On branch gitignore-vsmac-proposed
 Ignored files:
   (use "git add -f <file>..." to include in what will be committed)
 
@@ -10,7 +10,6 @@ Ignored files:
 	IgnoreTests/AndroidApp/bin/
 	IgnoreTests/AndroidApp/obj/
 	IgnoreTests/AzureFunctionsWebHook/bin/
-	IgnoreTests/AzureFunctionsWebHook/local.settings.json
 	IgnoreTests/AzureFunctionsWebHook/obj/
 	IgnoreTests/CoreConsole/.DS_Store
 	IgnoreTests/CoreConsole/bin/
