@@ -2,4 +2,4 @@
 
 ## Extract Interface
 
-![extract interface](extract-interface.gif)
+![extract interface](https://github.com/sayedihashimi/random-stuff/raw/master/vsmac/quick-fixes/extract-interface.gif)
