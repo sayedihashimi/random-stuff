@@ -6,7 +6,7 @@
 
 ## Generate Constructor
 
-![generate constructor](./generate-constructor2.gif)
+![generate constructor](./generate-constructor.gif)
 
 ## Generate Equals
 
@@ -14,4 +14,4 @@
 
 ## Generate Missing Function
 
-![generate missing function](./extract-interface.gif)
+![generate missing function](./generate-missing-function.gif)
