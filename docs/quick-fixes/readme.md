@@ -10,7 +10,7 @@
 
 ## Generate Equals
 
-![generate equals](./generate-equals.gif)
+![generate equals](./generate-equals-and-gethashcode.gif)
 
 ## Generate Missing Function
 
