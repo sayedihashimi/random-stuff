@@ -54,7 +54,7 @@
     "sceneTrack" : {
       "scenes" : [
         {
-          "duration" : 12.4666666666667,
+          "duration" : 10.4666666666667,
           "title" : "",
           "type" : "",
           "csml" : {
@@ -115,6 +115,31 @@
                         },
                         {
                           "id" : 6,
+                          "_type" : "ScreenIMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "trimStartSum" : -18,
+                          "attributes" : {
+                            "ident" : "Frame of Rec 11-8-2018 10"
+                          },
+                          "parameters" : {
+                            "cursorOpacity" : 0.0,
+                            "cursorScale" : 0.0
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1,
+                          "duration" : 19,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 1,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 7,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -136,7 +161,7 @@
                           "effects" : [
 
                           ],
-                          "start" : 1,
+                          "start" : 20,
                           "duration" : 26,
                           "mediaStart" : 0,
                           "mediaDuration" : 26,
@@ -151,7 +176,7 @@
                           }
                         },
                         {
-                          "id" : 7,
+                          "id" : 8,
                           "_type" : "ScreenIMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -160,21 +185,13 @@
                             "ident" : "Frame of Rec 11-8-2018 10"
                           },
                           "parameters" : {
-                            "cursorOpacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            },
-                            "cursorScale" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            }
+                            "cursorOpacity" : 0.0,
+                            "cursorScale" : 0.0
                           },
                           "effects" : [
 
                           ],
-                          "start" : 27,
+                          "start" : 46,
                           "duration" : 108001,
                           "mediaStart" : 25,
                           "mediaDuration" : 1,
@@ -188,9 +205,9 @@
 
                     ],
                     "start" : 0,
-                    "duration" : 134,
-                    "mediaStart" : -90,
-                    "mediaDuration" : 134,
+                    "duration" : 74,
+                    "mediaStart" : -11,
+                    "mediaDuration" : 74,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
@@ -202,7 +219,7 @@
                     }
                   },
                   {
-                    "id" : 8,
+                    "id" : 9,
                     "_type" : "StitchedMedia",
                     "minMediaStart" : -108000,
                     "attributes" : {
@@ -211,40 +228,16 @@
                       "mixToMono" : false
                     },
                     "parameters" : {
-                      "translation0" : {
-                        "type" : "double",
-                        "defaultValue" : 38.0,
-                        "interp" : "eioe"
-                      },
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -91.0,
-                        "interp" : "eioe"
-                      },
-                      "scale0" : {
-                        "type" : "double",
-                        "defaultValue" : 0.559000015258789,
-                        "interp" : "eioe"
-                      },
-                      "scale1" : {
-                        "type" : "double",
-                        "defaultValue" : 0.559000015258789,
-                        "interp" : "eioe"
-                      },
-                      "cursorOpacity" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      },
-                      "cursorScale" : {
-                        "type" : "double",
-                        "defaultValue" : 1.0,
-                        "interp" : "linr"
-                      }
+                      "translation0" : 38.0,
+                      "translation1" : -91.0,
+                      "scale0" : 0.559000015258789,
+                      "scale1" : 0.559000015258789,
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
                     },
                     "medias" : [
                         {
-                          "id" : 9,
+                          "id" : 10,
                           "_type" : "ScreenIMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -253,16 +246,8 @@
                             "ident" : "Frame of Rec 11-8-2018 10"
                           },
                           "parameters" : {
-                            "cursorOpacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            },
-                            "cursorScale" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            }
+                            "cursorOpacity" : 0.0,
+                            "cursorScale" : 0.0
                           },
                           "effects" : [
 
@@ -277,7 +262,7 @@
                           }
                         },
                         {
-                          "id" : 10,
+                          "id" : 11,
                           "_type" : "ScreenVMFile",
                           "src" : 2,
                           "trackNumber" : 0,
@@ -317,10 +302,279 @@
                     "effects" : [
 
                     ],
-                    "start" : 134,
-                    "duration" : 240,
+                    "start" : 74,
+                    "duration" : 110,
                     "mediaStart" : 44,
-                    "mediaDuration" : 240,
+                    "mediaDuration" : 110,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-scale" : "0.342857",
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 12,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : -108000,
+                    "attributes" : {
+                      "ident" : "Rec 11-8-2018 10",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : 38.0,
+                        "interp" : "eioe"
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -35.0,
+                        "interp" : "eioe"
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 0.891560614109039,
+                        "interp" : "eioe"
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 0.891560614109039,
+                        "interp" : "eioe"
+                      },
+                      "cursorOpacity" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      },
+                      "cursorScale" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "interp" : "linr"
+                      }
+                    },
+                    "medias" : [
+                        {
+                          "id" : 13,
+                          "_type" : "ScreenIMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "trimStartSum" : -108000,
+                          "attributes" : {
+                            "ident" : "Frame of Rec 11-8-2018 10"
+                          },
+                          "parameters" : {
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : -108000,
+                          "duration" : 108001,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 1,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 14,
+                          "_type" : "ScreenVMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-8-2018 10"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1,
+                          "duration" : 338,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 338,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false,
+                            "default-scale" : "0.342857",
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 184,
+                    "duration" : 78,
+                    "mediaStart" : 154,
+                    "mediaDuration" : 78,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false,
+                      "default-scale" : "0.342857",
+                      "effectApplied" : "none"
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 15,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : -108000,
+                    "attributes" : {
+                      "ident" : "Rec 11-8-2018 10",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "translation0" : 38.0,
+                      "translation1" : -91.0,
+                      "scale0" : 0.559000015258789,
+                      "scale1" : 0.559000015258789,
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 16,
+                          "_type" : "ScreenIMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "trimStartSum" : -108000,
+                          "attributes" : {
+                            "ident" : "Frame of Rec 11-8-2018 10"
+                          },
+                          "parameters" : {
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : -108000,
+                          "duration" : 108001,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 1,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 17,
+                          "_type" : "ScreenVMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 11-8-2018 10"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1,
+                          "duration" : 271,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 271,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false,
+                            "default-scale" : "0.342857",
+                            "effectApplied" : "none"
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 18,
+                          "_type" : "ScreenIMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "trimStartSum" : 0,
+                          "attributes" : {
+                            "ident" : "Frame of Rec 11-8-2018 10"
+                          },
+                          "parameters" : {
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 272,
+                          "duration" : 108001,
+                          "mediaStart" : 270,
+                          "mediaDuration" : 1,
+                          "scalar" : 1,
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 262,
+                    "duration" : 52,
+                    "mediaStart" : 232,
+                    "mediaDuration" : 52,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
@@ -337,7 +591,7 @@
                 "trackIndex" : 1,
                 "medias" : [
                   {
-                    "id" : 11,
+                    "id" : 19,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "TypeWinBlur",
@@ -373,9 +627,9 @@
 
                     ],
                     "start" : 0,
-                    "duration" : 91,
+                    "duration" : 30,
                     "mediaStart" : 0,
-                    "mediaDuration" : 91,
+                    "mediaDuration" : 30,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
@@ -392,7 +646,7 @@
                 "trackIndex" : 2,
                 "medias" : [
                   {
-                    "id" : 12,
+                    "id" : 20,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -463,9 +717,9 @@
                         }
                     ],
                     "start" : 0,
-                    "duration" : 91,
+                    "duration" : 30,
                     "mediaStart" : 0,
-                    "mediaDuration" : 91,
+                    "mediaDuration" : 30,
                     "scalar" : 1,
                     "metadata" : {
                       "clipSpeedAttribute" : false,
@@ -483,7 +737,7 @@
                 "trackIndex" : 3,
                 "medias" : [
                   {
-                    "id" : 13,
+                    "id" : 21,
                     "_type" : "IMFile",
                     "src" : 1,
                     "trackNumber" : 0,
@@ -492,90 +746,22 @@
                       "ident" : "vsmac-logo-with-name"
                     },
                     "parameters" : {
-                      "translation1" : {
-                        "type" : "double",
-                        "defaultValue" : -269.0,
-                        "interp" : "eioe"
-                      }
+                      "translation1" : -269.0
                     },
                     "effects" : [
                         {
                           "effectName" : "DropShadow",
                           "category" : "categoryVisualEffects",
                           "parameters" : {
-                            "angle" : {
-                              "type" : "double",
-                              "defaultValue" : -0.785398163397448,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "blur" : {
-                              "type" : "double",
-                              "defaultValue" : 10.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-alpha" : {
-                              "type" : "double",
-                              "defaultValue" : 1.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-blue" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-green" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "color-red" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
+                            "angle" : -0.785398163397448,
+                            "blur" : 10.0,
+                            "color-alpha" : 1.0,
+                            "color-blue" : 0.0,
+                            "color-green" : 0.0,
+                            "color-red" : 0.0,
                             "enabled" : 1,
-                            "offset" : {
-                              "type" : "double",
-                              "defaultValue" : 10.0,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            },
-                            "opacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.4,
-                              "interp" : "linr",
-                              "uiHints" : {
-                                "userInterfaceType" : 0,
-                                "unitType" : 0
-                              }
-                            }
+                            "offset" : 10.0,
+                            "opacity" : 0.4
                           },
                           "metadata" : {
                             "copiedParametricTime" : "-134217728/1"
@@ -585,7 +771,7 @@
                           "_type" : "GenericBehaviorEffect",
                           "effectName" : "reveal",
                           "start" : 0,
-                          "duration" : 91                        ,
+                          "duration" : 30                        ,
                           "in" : {
                             "attributes" : {
                               "name" : "reveal",
@@ -656,7 +842,6 @@
                               "opacity" : {
                                 "type" : "double",
                                 "defaultValue" : 0.60212844488189,
-                                "interp" : "linr",
                                 "valueBounds" : {
                                   "minValue" : 0.0,
                                   "maxValue" : 1.0,
@@ -709,7 +894,7 @@
                         }
                     ],
                     "start" : 0,
-                    "duration" : 91,
+                    "duration" : 30,
                     "mediaStart" : 0,
                     "mediaDuration" : 1,
                     "scalar" : 1,

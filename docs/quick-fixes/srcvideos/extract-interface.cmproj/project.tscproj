@@ -54,7 +54,7 @@
     "sceneTrack" : {
       "scenes" : [
         {
-          "duration" : 8.76666666666667,
+          "duration" : 8.96666666666667,
           "title" : "",
           "type" : "",
           "csml" : {
@@ -168,52 +168,16 @@
 
                           ],
                           "start" : 52,
-                          "duration" : 108001,
+                          "duration" : 16,
                           "mediaStart" : 51,
                           "mediaDuration" : 1,
                           "scalar" : 1,
                           "animationTracks" : {
 
                           }
-                        }
-                    ],
-                    "effects" : [
-
-                    ],
-                    "start" : 30,
-                    "duration" : 22,
-                    "mediaStart" : 26,
-                    "mediaDuration" : 44,
-                    "scalar" : "1/2",
-                    "metadata" : {
-                      "clipSpeedAttribute" : true,
-                      "default-scale" : "0.342857",
-                      "effectApplied" : "none"
-                    },
-                    "animationTracks" : {
-
-                    }
-                  },
-                  {
-                    "id" : 8,
-                    "_type" : "StitchedMedia",
-                    "minMediaStart" : 0,
-                    "attributes" : {
-                      "ident" : "Rec 11-8-2018 4",
-                      "gain" : 1.0,
-                      "mixToMono" : false
-                    },
-                    "parameters" : {
-                      "translation0" : 20.0,
-                      "translation1" : -91.0,
-                      "scale0" : 0.559260249137878,
-                      "scale1" : 0.559260249137878,
-                      "cursorOpacity" : 1.0,
-                      "cursorScale" : 1.0
-                    },
-                    "medias" : [
+                        },
                         {
-                          "id" : 9,
+                          "id" : 8,
                           "_type" : "ScreenVMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -235,10 +199,10 @@
                           "effects" : [
 
                           ],
-                          "start" : 0,
-                          "duration" : 174,
-                          "mediaStart" : 0,
-                          "mediaDuration" : 174,
+                          "start" : 68,
+                          "duration" : 101,
+                          "mediaStart" : 73,
+                          "mediaDuration" : 101,
                           "scalar" : 1,
                           "metadata" : {
                             "clipSpeedAttribute" : false,
@@ -250,7 +214,7 @@
                           }
                         },
                         {
-                          "id" : 10,
+                          "id" : 9,
                           "_type" : "ScreenIMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -273,7 +237,7 @@
                           "effects" : [
 
                           ],
-                          "start" : 174,
+                          "start" : 169,
                           "duration" : 108001,
                           "mediaStart" : 171,
                           "mediaDuration" : 1,
@@ -286,11 +250,11 @@
                     "effects" : [
 
                     ],
-                    "start" : 52,
-                    "duration" : 66,
-                    "mediaStart" : "3964/55",
-                    "mediaDuration" : "2260/17",
-                    "scalar" : "561/1130",
+                    "start" : 30,
+                    "duration" : 86,
+                    "mediaStart" : 26,
+                    "mediaDuration" : 173,
+                    "scalar" : "86/173",
                     "metadata" : {
                       "clipSpeedAttribute" : true,
                       "default-scale" : "0.342857",
@@ -301,192 +265,705 @@
                     }
                   },
                   {
-                    "id" : 11,
-                    "_type" : "StitchedMedia",
-                    "minMediaStart" : 0,
+                    "id" : 10,
+                    "_type" : "Group",
+                    "parameters" : {
+                      "translation0" : {
+                        "type" : "double",
+                        "defaultValue" : 10.2185964584346,
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : -9.82222222222223,
+                            "duration" : 40
+                          },
+                          {
+                            "time" : 40,
+                            "value" : 10.1777777777778,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "translation1" : {
+                        "type" : "double",
+                        "defaultValue" : -45.6366227865217,
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 44.1911111111111,
+                            "duration" : 40
+                          },
+                          {
+                            "time" : 40,
+                            "value" : -46.8088888888889,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "scale0" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.25,
+                            "duration" : 40
+                          },
+                          {
+                            "time" : 40,
+                            "value" : 1.0,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "scale1" : {
+                        "type" : "double",
+                        "defaultValue" : 1.0,
+                        "keyframes" : [
+                          {
+                            "time" : 0,
+                            "value" : 1.25,
+                            "duration" : 40
+                          },
+                          {
+                            "time" : 40,
+                            "value" : 1.0,
+                            "duration" : 30
+                          }
+                        ]
+                      },
+                      "volume" : 1.0
+                    },
+                    "tracks" : [
+                      {
+                        "trackIndex" : 0,
+                        "medias" : [
+                          {
+                            "id" : 11,
+                            "_type" : "Group",
+                            "parameters" : {
+                              "translation0" : 9.7814035415654,
+                              "translation1" : -45.3633772134783,
+                              "volume" : 1.0
+                            },
+                            "tracks" : [
+                              {
+                                "trackIndex" : 0,
+                                "medias" : [
+                                  {
+                                    "id" : 12,
+                                    "_type" : "StitchedMedia",
+                                    "minMediaStart" : 0,
+                                    "attributes" : {
+                                      "ident" : "Rec 11-8-2018 4",
+                                      "gain" : 1.0,
+                                      "mixToMono" : false
+                                    },
+                                    "parameters" : {
+                                      "scale0" : 0.559000015258789,
+                                      "scale1" : 0.559000015258789,
+                                      "cursorOpacity" : 1.0,
+                                      "cursorScale" : 1.0
+                                    },
+                                    "medias" : [
+                                        {
+                                          "id" : 13,
+                                          "_type" : "ScreenVMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "attributes" : {
+                                            "ident" : "Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 0,
+                                          "duration" : 231,
+                                          "mediaStart" : 0,
+                                          "mediaDuration" : 231,
+                                          "scalar" : 1,
+                                          "metadata" : {
+                                            "clipSpeedAttribute" : false,
+                                            "default-scale" : "0.342857",
+                                            "effectApplied" : "none"
+                                          },
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 14,
+                                          "_type" : "ScreenVMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "attributes" : {
+                                            "ident" : "Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 231,
+                                          "duration" : 163,
+                                          "mediaStart" : 264,
+                                          "mediaDuration" : 163,
+                                          "scalar" : 1,
+                                          "metadata" : {
+                                            "clipSpeedAttribute" : false,
+                                            "default-scale" : "0.342857",
+                                            "effectApplied" : "none"
+                                          },
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 15,
+                                          "_type" : "ScreenIMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "trimStartSum" : 0,
+                                          "attributes" : {
+                                            "ident" : "Frame of Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorOpacity" : 0.0,
+                                            "cursorScale" : 0.0
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 394,
+                                          "duration" : 9,
+                                          "mediaStart" : 426,
+                                          "mediaDuration" : 1,
+                                          "scalar" : 1,
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 16,
+                                          "_type" : "ScreenIMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "trimStartSum" : 0,
+                                          "attributes" : {
+                                            "ident" : "Frame of Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorOpacity" : 0.0,
+                                            "cursorScale" : 0.0
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 403,
+                                          "duration" : 114,
+                                          "mediaStart" : 426,
+                                          "mediaDuration" : 1,
+                                          "scalar" : 1,
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 17,
+                                          "_type" : "ScreenIMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "trimStartSum" : 0,
+                                          "attributes" : {
+                                            "ident" : "Frame of Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorOpacity" : 0.0,
+                                            "cursorScale" : 0.0
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 517,
+                                          "duration" : 108001,
+                                          "mediaStart" : 426,
+                                          "mediaDuration" : 1,
+                                          "scalar" : 1,
+                                          "animationTracks" : {
+
+                                          }
+                                        }
+                                    ],
+                                    "effects" : [
+
+                                    ],
+                                    "start" : 0,
+                                    "duration" : 11,
+                                    "mediaStart" : 180,
+                                    "mediaDuration" : "777879707/35863488",
+                                    "scalar" : "35863488/70716337",
+                                    "metadata" : {
+                                      "clipSpeedAttribute" : true,
+                                      "default-scale" : "0.342857",
+                                      "effectApplied" : "none"
+                                    },
+                                    "animationTracks" : {
+
+                                    }
+                                  },
+                                  {
+                                    "id" : 18,
+                                    "_type" : "StitchedMedia",
+                                    "minMediaStart" : 0,
+                                    "attributes" : {
+                                      "ident" : "Rec 11-8-2018 4",
+                                      "gain" : 1.0,
+                                      "mixToMono" : false
+                                    },
+                                    "parameters" : {
+                                      "scale0" : {
+                                        "type" : "double",
+                                        "defaultValue" : 0.559000015258789,
+                                        "interp" : "eioe"
+                                      },
+                                      "scale1" : {
+                                        "type" : "double",
+                                        "defaultValue" : 0.559000015258789,
+                                        "interp" : "eioe"
+                                      },
+                                      "cursorOpacity" : {
+                                        "type" : "double",
+                                        "defaultValue" : 1.0,
+                                        "interp" : "linr"
+                                      },
+                                      "cursorScale" : {
+                                        "type" : "double",
+                                        "defaultValue" : 1.0,
+                                        "interp" : "linr"
+                                      }
+                                    },
+                                    "medias" : [
+                                        {
+                                          "id" : 19,
+                                          "_type" : "ScreenVMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "attributes" : {
+                                            "ident" : "Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 0,
+                                          "duration" : 231,
+                                          "mediaStart" : 0,
+                                          "mediaDuration" : 231,
+                                          "scalar" : 1,
+                                          "metadata" : {
+                                            "clipSpeedAttribute" : false,
+                                            "default-scale" : "0.342857",
+                                            "effectApplied" : "none"
+                                          },
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 20,
+                                          "_type" : "ScreenVMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "attributes" : {
+                                            "ident" : "Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 231,
+                                          "duration" : 163,
+                                          "mediaStart" : 264,
+                                          "mediaDuration" : 163,
+                                          "scalar" : 1,
+                                          "metadata" : {
+                                            "clipSpeedAttribute" : false,
+                                            "default-scale" : "0.342857",
+                                            "effectApplied" : "none"
+                                          },
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 21,
+                                          "_type" : "ScreenIMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "trimStartSum" : 0,
+                                          "attributes" : {
+                                            "ident" : "Frame of Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 394,
+                                          "duration" : 9,
+                                          "mediaStart" : 426,
+                                          "mediaDuration" : 1,
+                                          "scalar" : 1,
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 22,
+                                          "_type" : "ScreenIMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "trimStartSum" : 0,
+                                          "attributes" : {
+                                            "ident" : "Frame of Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 403,
+                                          "duration" : 114,
+                                          "mediaStart" : 426,
+                                          "mediaDuration" : 1,
+                                          "scalar" : 1,
+                                          "animationTracks" : {
+
+                                          }
+                                        },
+                                        {
+                                          "id" : 23,
+                                          "_type" : "ScreenIMFile",
+                                          "src" : 1,
+                                          "trackNumber" : 0,
+                                          "trimStartSum" : 0,
+                                          "attributes" : {
+                                            "ident" : "Frame of Rec 11-8-2018 4"
+                                          },
+                                          "parameters" : {
+                                            "cursorOpacity" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            },
+                                            "cursorScale" : {
+                                              "type" : "double",
+                                              "defaultValue" : 0.0,
+                                              "interp" : "linr"
+                                            }
+                                          },
+                                          "effects" : [
+
+                                          ],
+                                          "start" : 517,
+                                          "duration" : 108001,
+                                          "mediaStart" : 426,
+                                          "mediaDuration" : 1,
+                                          "scalar" : 1,
+                                          "animationTracks" : {
+
+                                          }
+                                        }
+                                    ],
+                                    "effects" : [
+
+                                    ],
+                                    "start" : 11,
+                                    "duration" : 29,
+                                    "mediaStart" : "7233307547/35863488",
+                                    "mediaDuration" : "70716337/1236672",
+                                    "scalar" : "35863488/70716337",
+                                    "metadata" : {
+                                      "clipSpeedAttribute" : true,
+                                      "default-scale" : "0.342857",
+                                      "effectApplied" : "none"
+                                    },
+                                    "animationTracks" : {
+
+                                    }
+                                  }
+                                ],
+                                  "ident" : "",
+                                  "audioMuted" : false,
+                                  "videoHidden" : false
+                              }
+                            ],
+                            "attributes" : {
+                              "ident" : "Group 1",
+                              "gain" : 1.0,
+                              "mixToMono" : false
+                            },
+                            "effects" : [
+
+                            ],
+                            "start" : 0,
+                            "duration" : 40,
+                            "mediaStart" : 0.0,
+                            "mediaDuration" : 40.0,
+                            "scalar" : 1,
+                            "metadata" : {
+                              "clipSpeedAttribute" : false,
+                              "effectApplied" : "none",
+                              "isOpen" : false
+                            },
+                            "animationTracks" : {
+
+                            }
+                          },
+                          {
+                            "id" : 24,
+                            "_type" : "StitchedMedia",
+                            "minMediaStart" : 0,
+                            "attributes" : {
+                              "ident" : "Rec 11-8-2018 4",
+                              "gain" : 1.0,
+                              "mixToMono" : false
+                            },
+                            "parameters" : {
+                              "translation0" : 9.7814035415654,
+                              "translation1" : -45.3633772134783,
+                              "scale0" : 0.559260249137878,
+                              "scale1" : 0.559260249137878,
+                              "cursorOpacity" : 1.0,
+                              "cursorScale" : 1.0
+                            },
+                            "medias" : [
+                                {
+                                  "id" : 25,
+                                  "_type" : "ScreenVMFile",
+                                  "src" : 1,
+                                  "trackNumber" : 0,
+                                  "attributes" : {
+                                    "ident" : "Rec 11-8-2018 4"
+                                  },
+                                  "parameters" : {
+                                    "cursorScale" : {
+                                      "type" : "double",
+                                      "defaultValue" : 0.0,
+                                      "interp" : "linr"
+                                    },
+                                    "cursorOpacity" : {
+                                      "type" : "double",
+                                      "defaultValue" : 0.0,
+                                      "interp" : "linr"
+                                    }
+                                  },
+                                  "effects" : [
+
+                                  ],
+                                  "start" : 0,
+                                  "duration" : 231,
+                                  "mediaStart" : 0,
+                                  "mediaDuration" : 231,
+                                  "scalar" : 1,
+                                  "metadata" : {
+                                    "clipSpeedAttribute" : false,
+                                    "default-scale" : "0.342857",
+                                    "effectApplied" : "none"
+                                  },
+                                  "animationTracks" : {
+
+                                  }
+                                },
+                                {
+                                  "id" : 26,
+                                  "_type" : "ScreenVMFile",
+                                  "src" : 1,
+                                  "trackNumber" : 0,
+                                  "attributes" : {
+                                    "ident" : "Rec 11-8-2018 4"
+                                  },
+                                  "parameters" : {
+                                    "cursorScale" : {
+                                      "type" : "double",
+                                      "defaultValue" : 0.0,
+                                      "interp" : "linr"
+                                    },
+                                    "cursorOpacity" : {
+                                      "type" : "double",
+                                      "defaultValue" : 0.0,
+                                      "interp" : "linr"
+                                    }
+                                  },
+                                  "effects" : [
+
+                                  ],
+                                  "start" : 231,
+                                  "duration" : 115,
+                                  "mediaStart" : 264,
+                                  "mediaDuration" : 115,
+                                  "scalar" : 1,
+                                  "metadata" : {
+                                    "clipSpeedAttribute" : false,
+                                    "default-scale" : "0.342857",
+                                    "effectApplied" : "none"
+                                  },
+                                  "animationTracks" : {
+
+                                  }
+                                },
+                                {
+                                  "id" : 27,
+                                  "_type" : "ScreenIMFile",
+                                  "src" : 1,
+                                  "trackNumber" : 0,
+                                  "trimStartSum" : 0,
+                                  "attributes" : {
+                                    "ident" : "Frame of Rec 11-8-2018 4"
+                                  },
+                                  "parameters" : {
+                                    "cursorOpacity" : {
+                                      "type" : "double",
+                                      "defaultValue" : 0.0,
+                                      "interp" : "linr"
+                                    },
+                                    "cursorScale" : {
+                                      "type" : "double",
+                                      "defaultValue" : 0.0,
+                                      "interp" : "linr"
+                                    }
+                                  },
+                                  "effects" : [
+
+                                  ],
+                                  "start" : 346,
+                                  "duration" : 108001,
+                                  "mediaStart" : 375,
+                                  "mediaDuration" : 1,
+                                  "scalar" : 1,
+                                  "animationTracks" : {
+
+                                  }
+                                }
+                            ],
+                            "effects" : [
+
+                            ],
+                            "start" : 40,
+                            "duration" : 52,
+                            "mediaStart" : "1160510165/4482936",
+                            "mediaDuration" : "148238314627/975038580",
+                            "scalar" : "3900154320/11402947279",
+                            "metadata" : {
+                              "clipSpeedAttribute" : true,
+                              "default-scale" : "0.342857",
+                              "effectApplied" : "none"
+                            },
+                            "animationTracks" : {
+
+                            }
+                          }
+                        ],
+                          "ident" : "",
+                          "audioMuted" : false,
+                          "videoHidden" : false
+                      }
+                    ],
                     "attributes" : {
-                      "ident" : "Rec 11-8-2018 4",
+                      "ident" : "Group 1",
                       "gain" : 1.0,
                       "mixToMono" : false
                     },
-                    "parameters" : {
-                      "translation0" : 20.0,
-                      "translation1" : -7.0,
-                      "scale0" : 0.691064596176147,
-                      "scale1" : 0.691064596176147,
-                      "cursorOpacity" : 1.0,
-                      "cursorScale" : 1.0
-                    },
-                    "medias" : [
-                        {
-                          "id" : 12,
-                          "_type" : "ScreenVMFile",
-                          "src" : 1,
-                          "trackNumber" : 0,
-                          "attributes" : {
-                            "ident" : "Rec 11-8-2018 4"
-                          },
-                          "parameters" : {
-                            "cursorScale" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            },
-                            "cursorOpacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            }
-                          },
-                          "effects" : [
-
-                          ],
-                          "start" : 0,
-                          "duration" : 231,
-                          "mediaStart" : 0,
-                          "mediaDuration" : 231,
-                          "scalar" : 1,
-                          "metadata" : {
-                            "clipSpeedAttribute" : false,
-                            "default-scale" : "0.342857",
-                            "effectApplied" : "none"
-                          },
-                          "animationTracks" : {
-
-                          }
-                        },
-                        {
-                          "id" : 13,
-                          "_type" : "ScreenVMFile",
-                          "src" : 1,
-                          "trackNumber" : 0,
-                          "attributes" : {
-                            "ident" : "Rec 11-8-2018 4"
-                          },
-                          "parameters" : {
-                            "cursorScale" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            },
-                            "cursorOpacity" : {
-                              "type" : "double",
-                              "defaultValue" : 0.0,
-                              "interp" : "linr"
-                            }
-                          },
-                          "effects" : [
-
-                          ],
-                          "start" : 231,
-                          "duration" : 163,
-                          "mediaStart" : 264,
-                          "mediaDuration" : 163,
-                          "scalar" : 1,
-                          "metadata" : {
-                            "clipSpeedAttribute" : false,
-                            "default-scale" : "0.342857",
-                            "effectApplied" : "none"
-                          },
-                          "animationTracks" : {
-
-                          }
-                        },
-                        {
-                          "id" : 14,
-                          "_type" : "ScreenIMFile",
-                          "src" : 1,
-                          "trackNumber" : 0,
-                          "trimStartSum" : 0,
-                          "attributes" : {
-                            "ident" : "Frame of Rec 11-8-2018 4"
-                          },
-                          "parameters" : {
-                            "cursorOpacity" : 0.0,
-                            "cursorScale" : 0.0
-                          },
-                          "effects" : [
-
-                          ],
-                          "start" : 394,
-                          "duration" : 9,
-                          "mediaStart" : 426,
-                          "mediaDuration" : 1,
-                          "scalar" : 1,
-                          "animationTracks" : {
-
-                          }
-                        },
-                        {
-                          "id" : 15,
-                          "_type" : "ScreenIMFile",
-                          "src" : 1,
-                          "trackNumber" : 0,
-                          "trimStartSum" : 0,
-                          "attributes" : {
-                            "ident" : "Frame of Rec 11-8-2018 4"
-                          },
-                          "parameters" : {
-                            "cursorOpacity" : 0.0,
-                            "cursorScale" : 0.0
-                          },
-                          "effects" : [
-
-                          ],
-                          "start" : 403,
-                          "duration" : 114,
-                          "mediaStart" : 426,
-                          "mediaDuration" : 1,
-                          "scalar" : 1,
-                          "animationTracks" : {
-
-                          }
-                        },
-                        {
-                          "id" : 16,
-                          "_type" : "ScreenIMFile",
-                          "src" : 1,
-                          "trackNumber" : 0,
-                          "trimStartSum" : 0,
-                          "attributes" : {
-                            "ident" : "Frame of Rec 11-8-2018 4"
-                          },
-                          "parameters" : {
-                            "cursorOpacity" : 0.0,
-                            "cursorScale" : 0.0
-                          },
-                          "effects" : [
-
-                          ],
-                          "start" : 517,
-                          "duration" : 108001,
-                          "mediaStart" : 426,
-                          "mediaDuration" : 1,
-                          "scalar" : 1,
-                          "animationTracks" : {
-
-                          }
-                        }
-                    ],
                     "effects" : [
 
                     ],
-                    "start" : 118,
-                    "duration" : 40,
-                    "mediaStart" : 180,
-                    "mediaDuration" : "353581685/4482936",
-                    "scalar" : "35863488/70716337",
+                    "start" : 116,
+                    "duration" : 92,
+                    "mediaStart" : 0.0,
+                    "mediaDuration" : 92.0,
+                    "scalar" : 1,
                     "metadata" : {
-                      "clipSpeedAttribute" : true,
-                      "default-scale" : "0.342857",
-                      "effectApplied" : "none"
+                      "clipSpeedAttribute" : false,
+                      "effectApplied" : "none",
+                      "isOpen" : false
                     },
                     "animationTracks" : {
-
+                      "visual" : [
+                        {
+                          "range" : [ 0, 40]
+                        },
+                        {
+                          "range" : [ 40, 30]
+                        }
+                      ]
                     }
                   },
                   {
-                    "id" : 17,
+                    "id" : 28,
                     "_type" : "StitchedMedia",
                     "minMediaStart" : 0,
                     "attributes" : {
@@ -528,7 +1005,7 @@
                     },
                     "medias" : [
                         {
-                          "id" : 18,
+                          "id" : 29,
                           "_type" : "ScreenVMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -565,7 +1042,7 @@
                           }
                         },
                         {
-                          "id" : 19,
+                          "id" : 30,
                           "_type" : "ScreenVMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -602,7 +1079,7 @@
                           }
                         },
                         {
-                          "id" : 20,
+                          "id" : 31,
                           "_type" : "ScreenIMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -635,7 +1112,7 @@
                           }
                         },
                         {
-                          "id" : 21,
+                          "id" : 32,
                           "_type" : "ScreenIMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -668,7 +1145,7 @@
                           }
                         },
                         {
-                          "id" : 22,
+                          "id" : 33,
                           "_type" : "ScreenIMFile",
                           "src" : 1,
                           "trackNumber" : 0,
@@ -704,10 +1181,10 @@
                     "effects" : [
 
                     ],
-                    "start" : 158,
-                    "duration" : 105,
-                    "mediaStart" : "1160510165/4482936",
-                    "mediaDuration" : "2475071795/11954496",
+                    "start" : 208,
+                    "duration" : 61,
+                    "mediaStart" : "1032966679/2988624",
+                    "mediaDuration" : "4313696557/35863488",
                     "scalar" : "35863488/70716337",
                     "metadata" : {
                       "clipSpeedAttribute" : true,
@@ -724,7 +1201,7 @@
                 "trackIndex" : 1,
                 "medias" : [
                   {
-                    "id" : 23,
+                    "id" : 34,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "TypeWinBlur",
@@ -779,7 +1256,7 @@
                 "trackIndex" : 2,
                 "medias" : [
                   {
-                    "id" : 24,
+                    "id" : 35,
                     "_type" : "Callout",
                     "def" : {
                       "kind" : "remix",
@@ -868,7 +1345,7 @@
                 "trackIndex" : 3,
                 "medias" : [
                   {
-                    "id" : 25,
+                    "id" : 36,
                     "_type" : "IMFile",
                     "src" : 2,
                     "trackNumber" : 0,
@@ -877,6 +1354,7 @@
                       "ident" : "vsmac-logo-with-name"
                     },
                     "parameters" : {
+                      "translation0" : -1.0,
                       "translation1" : -269.0
                     },
                     "effects" : [
@@ -905,120 +1383,44 @@
                           "duration" : 30                        ,
                           "in" : {
                             "attributes" : {
-                              "name" : "reveal",
+                              "name" : "grow",
                               "type" : 0,
-                              "characterOrder" : 7,
-                              "offsetBetweenCharacters" : "3/2",
-                              "suggestedDurationPerCharacter" : 22,
-                              "overlapProportion" : 0,
-                              "movement" : 16,
-                              "springDamping" : 5.0,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 1,
+                              "suggestedDurationPerCharacter" : 18,
+                              "overlapProportion" : "3/4",
+                              "movement" : 0,
+                              "springDamping" : 3.60482283464567,
                               "springStiffness" : 50.0,
                               "bounceBounciness" : 0.45
-                            },
-                            "parameters" : {
-                              "direction" : {
-                                "type" : "int",
-                                "valueBounds" : {
-                                  "minValue" : 0,
-                                  "maxValue" : 3,
-                                  "defaultValue" : 0
-                                },
-                                "uiHints" : {
-                                  "userInterfaceType" : 2,
-                                  "unitType" : 0
-                                },
-                                "keyframes" : [
-                                  {
-                                    "time" : 0,
-                                    "value" : 0,
-                                    "duration" : 0
-                                  }
-                                ]
-                              }
                             }
                           
                           },
                           "center" : {
                             "attributes" : {
-                              "name" : "reveal",
+                              "name" : "none",
                               "type" : 0,
-                              "characterOrder" : 2,
-                              "offsetBetweenCharacters" : "51/10",
-                              "secondsPerLoop" : "233/100",
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "secondsPerLoop" : 1,
                               "numberOfLoops" : -1,
-                              "delayBetweenLoops" : 15,
-                              "offsetBetweenCharacters" : "51/10"
-                            },
-                            "parameters" : {
-                              "movement" : {
-                                "type" : "int",
-                                "valueBounds" : {
-                                  "minValue" : 0,
-                                  "maxValue" : 31,
-                                  "defaultValue" : 0
-                                },
-                                "uiHints" : {
-                                  "userInterfaceType" : 4,
-                                  "unitType" : 0
-                                },
-                                "keyframes" : [
-                                  {
-                                    "time" : 0,
-                                    "value" : 0,
-                                    "duration" : 0
-                                  }
-                                ]
-                              },
-                              "opacity" : {
-                                "type" : "double",
-                                "defaultValue" : 0.60212844488189,
-                                "valueBounds" : {
-                                  "minValue" : 0.0,
-                                  "maxValue" : 1.0,
-                                  "defaultValue" : 0.45
-                                },
-                                "uiHints" : {
-                                  "userInterfaceType" : 1,
-                                  "unitType" : 1
-                                }
-                              }
+                              "delayBetweenLoops" : 0,
+                              "offsetBetweenCharacters" : 0
                             }
                           
                           },
                           "out" : {
                             "attributes" : {
-                              "name" : "reveal",
+                              "name" : "none",
                               "type" : 0,
-                              "characterOrder" : 7,
-                              "offsetBetweenCharacters" : "3/2",
-                              "suggestedDurationPerCharacter" : 17,
-                              "overlapProportion" : "1/2",
-                              "movement" : 6,
+                              "characterOrder" : 6,
+                              "offsetBetweenCharacters" : 0,
+                              "suggestedDurationPerCharacter" : 0,
+                              "overlapProportion" : 0,
+                              "movement" : -1,
                               "springDamping" : 5.0,
                               "springStiffness" : 50.0,
                               "bounceBounciness" : 0.45
-                            },
-                            "parameters" : {
-                              "direction" : {
-                                "type" : "int",
-                                "valueBounds" : {
-                                  "minValue" : 0,
-                                  "maxValue" : 3,
-                                  "defaultValue" : 2
-                                },
-                                "uiHints" : {
-                                  "userInterfaceType" : 2,
-                                  "unitType" : 0
-                                },
-                                "keyframes" : [
-                                  {
-                                    "time" : 0,
-                                    "value" : 2,
-                                    "duration" : 0
-                                  }
-                                ]
-                              }
                             }
                           
                           }
@@ -1032,6 +1434,9 @@
                     "metadata" : {
                       "clipSpeedAttribute" : false,
                       "default-Delay-sliding" : "0",
+                      "default-Movement-reveal" : "29",
+                      "default-Tension-reveal" : "5",
+                      "default-direction" : "1",
                       "default-movement" : "27",
                       "default-opacity" : "0.45",
                       "default-scale" : "1",
@@ -1086,6 +1491,18 @@
         }
       }
     ],
+    "parameters" : {
+      "toc" : {
+        "type" : "string",
+        "keyframes" : [
+          {
+            "time" : 156,
+            "value" : "Marker",
+            "duration" : 0
+          }
+        ]
+      }
+    },
     "captionAttributes" : {
       "enabled" : true,
       "fontName" : "Arial",
@@ -1106,6 +1523,7 @@
     }
   },
   "metadata" : {
+    "CanvasSizeWarning" : 1,
     "ProjectDimensionsChanged" : true,
     "firstMedia" : true
   }
