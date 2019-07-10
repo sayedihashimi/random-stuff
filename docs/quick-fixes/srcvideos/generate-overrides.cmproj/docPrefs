@@ -28,7 +28,7 @@
 		<integer>48</integer>
 	</array>
 	<key>DocPrefWindowSizePos</key>
-	<string>0 84 1680 943 0 0 1680 1027 </string>
+	<string>120 234 1680 943 0 0 1920 1177 </string>
 	<key>DocPrefZoomValue</key>
 	<string>1.67079207920792160991</string>
 	<key>SaveAsStandaloneProject</key>
